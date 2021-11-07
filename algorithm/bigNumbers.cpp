@@ -216,7 +216,7 @@ string* devide_(string a, string b) {
     if (c == -1) {
         string* re = new string[2];
         re[0] = "0";
-        re[1] = b;
+        re[1] = a;
         return re;
     }
     if(c==0){
