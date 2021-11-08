@@ -258,7 +258,7 @@ string* devide_(string a, string b) {
 
 
 
-int main()
+int bigNumbers()
 {
     string a, b;
     cin >> a >> b;
@@ -267,4 +267,5 @@ int main()
     cout << multiply_(a, b)<<endl;
     string* re = devide_(a, b);
     cout << re[0]<<endl<<re[1];
+    return 0;
 }
